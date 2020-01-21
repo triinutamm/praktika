@@ -19,12 +19,9 @@ header {
 
 /* HEADER */
 .navbar {
-    background: rgba(0, 0, 0, 0.6) !important;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
     font-size: 0.8rem;
-
-
 }
 
 
@@ -74,9 +71,25 @@ header .nav-link:hover {
 main {
     width: 100%;
     padding: 0vmin 15vmin 10vmin 15vmin;
-    background: rgb(0, 0, 0);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/concrete.jpg');
+
+
 
 }
+
+footer {
+    background-image: url("../assets/concrete.jpg");
+}
+
+body {
+    background-image: url("../assets/concrete.jpg");
+}
+
+/* CAROUSEL*/
+.carousel .inner {
+    width: 70%;
+}
+
 
 
 
