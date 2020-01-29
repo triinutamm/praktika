@@ -15,52 +15,42 @@
 
 <body>
     <header>
-
-        <div class="nav sticky-top container-fluid">
-            <div class="container-fluid">
-                <ul class="nav justify-content-end bg-light sticky-top">
-                    <li class="nav-item">
-                        <i class="fas fa-map-pin p-3"> Asula 3, Tallinn</i>
-                    </li>
-                    <!-- see tähendab margin right -->
-                    <div class="mr-auto"></div>
-                    <li class="nav-item">
-                        <button class="btn btn-secondary my-2">Broneeri aeg</button>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <div class="dropdown">
-                            <a class="nav-link my-2" href="#">Language</a>
-                            <div class="dropdown-content">
-                                <a href="#">EE</a>
-                                <a href="#">EN</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="navbar">
-            <nav class="container-fluid navbar navbar-expand-md navbar-light bg-white">
-                <a class="navbar-brand fab fa-pagelines fa-2x" href="index.html"></a>
+        <div class="navbar p-0">
+            <nav class="container-fluid navbar navbar-expand-md fixed-top ">
+                <a class="navbar-brand fab fa-pagelines fa-2x active nav-link" href="index.html">logo</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
+                    <div class="navbar-nav  ml-auto">
+                        <!-- <a class="nav-item nav-link active" href="index.html">Avaleht <span
+                                class="sr-only">(current)</span></a> -->
                         <a class="nav-item nav-link" href="about.html">Meist</a>
                         <a class="nav-item nav-link" href="services.html">Teenused</a>
                         <a class="nav-item nav-link" href="trainings.html">Koolitused</a>
-                        <a class="nav-item nav-link active" href="gallery.html">Galerii</a>
+                        <a class="nav-item nav-link" href="gallery.html">Galerii</a>
                         <a class="nav-item nav-link" href="contact.html">Kontakt</a>
+                        <div class="nav-item dropdown">
+                            <div class="dropdown">
+                                <a class="nav-link" href="#">Language</a>
+                                <div class="dropdown-content ">
+                                    <a href="#">EE</a>
+                                    <a href="#">EN</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
+
             </nav>
         </div>
     </header>
 
+
     <footer class="pb-4">
-        <div class="container-fluid padding bg-secondary text-light">
+        <div class="container-fluid padding text-light">
             <div class="row text-center pt-3">
                 <div class="col-md-6">
                     <h3>Oleme avatud</h3>
@@ -83,17 +73,29 @@
             </div>
         </div>
         <div class="container-fluid">
-            <ul class="nav justify-content-center fixed-bottom bg-primary py-2">
-                <li class="nav-item px-1">
+
+            <ul class="nav justify-content-center fixed-bottom mt-auto mb-auto">
+                <li class="nav-item mr-auto mt-auto mb-auto ml-4">
+                    <i class="fas fa-map-pin"></i>
+                    <i>Asula 3, Tallinn</i>
+                </li>
+
+                <li class="nav-item px-1 mt-auto mb-auto">
                     <i class="fab fa-facebook-square"></i>
                 </li>
-                <li class="nav-item px-2">
+                <li class="nav-item px-2 mt-auto mb-auto">
                     <i class="fab fa-instagram"></i>
                 </li>
-                <li class="nav-item px-1">
+                <li class="nav-item px-1 mt-auto mb-auto">
                     <i class="fab fa-youtube"></i>
                 </li>
+
+                <li class="nav-item ml-auto mr-4">
+                    <button class="btn">Broneeri aeg</button>
+                </li>
+
             </ul>
+
         </div>
     </footer>
 

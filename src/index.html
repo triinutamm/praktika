@@ -16,8 +16,8 @@
 <body>
 
     <header>
-        <div class="navbar">
-            <nav class="container-fluid navbar navbar-expand-md ">
+        <div class="navbar p-0">
+            <nav class="container-fluid navbar navbar-expand-md fixed-top ">
                 <a class="navbar-brand fab fa-pagelines fa-2x active nav-link" href="index.html">logo</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,7 @@
                         <div class="nav-item dropdown">
                             <div class="dropdown">
                                 <a class="nav-link" href="#">Language</a>
-                                <div class="dropdown-content">
+                                <div class="dropdown-content ">
                                     <a href="#">EE</a>
                                     <a href="#">EN</a>
                                 </div>
@@ -49,9 +49,9 @@
         </div>
     </header>
     <main>
-        <div class="container">
+        <div class="container p-0">
             <div class="row">
-                <div class="col-sm-12 mt-4">
+                <div class="col-sm-12 p-0">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -60,7 +60,7 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="../assets/carousel31.jpg" alt="First slide">
+                                <img class="d-block img-fluid" src="../assets/carousel311.jpg" alt="First slide">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Lorem ipsum dolor sit amet consectetur.</h5>
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum dicta,
@@ -69,7 +69,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="../assets/carousel21.jpg" alt="Second slide">
+                                <img class="d-block img-fluid" src="../assets/carousel211.jpg" alt="Second slide">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h5>
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum dicta,
@@ -78,7 +78,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="../assets/carousel11.jpg" alt="Third slide">
+                                <img class="d-block img-fluid" src="../assets/carousel111.jpg" alt="Third slide">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Lorem ipsum dolor sit.</h5>
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum dicta,
@@ -86,26 +86,17 @@
                                         dolore nulla at?</p>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="../assets/carousel41.jpg" alt="Fourth slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Lorem ipsum dolor sit.</h5>
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum dicta,
-                                        non cum
-                                        dolore nulla at?</p>
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                                data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                                data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
                         </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -137,12 +128,10 @@
         </div>
         <div class="container-fluid">
 
-            <ul class="nav justify-content-center fixed-bottom py-2 mt-auto mb-auto">
-                <li class="nav-item mr-auto mt-auto mb-auto ml-4">
-                    <i class="fas fa-map-pin"> Asula 3, Tallinn</i>
-                </li>
+            <ul class="nav justify-content-center fixed-bottom mt-auto mb-auto">
 
-                <li class="nav-item px-1 mt-auto mb-auto">
+
+                <li class="nav-item px-1 mt-auto mb-auto ml-4">
                     <i class="fab fa-facebook-square"></i>
                 </li>
                 <li class="nav-item px-2 mt-auto mb-auto">
@@ -153,7 +142,7 @@
                 </li>
 
                 <li class="nav-item ml-auto mr-4">
-                    <button class="btn btn-secondary">Broneeri aeg</button>
+                    <button class="btn">Broneeri aeg</button>
                 </li>
 
             </ul>
