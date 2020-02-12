@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-header {
-    overflow: visible;
-}
-
 :root {
     --Montserrat: 'Montserrat', sans-serif;
     --Bebas: "Bebeas Neue", cursive;
@@ -16,8 +12,12 @@ header {
 }
 
 
-
 /* HEADER */
+
+header {
+    overflow: visible;
+}
+
 /* NAVBAR */
 .navbar {
     text-transform: uppercase;
@@ -86,6 +86,11 @@ header .nav-link:hover {
 main {
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/concrete.jpg');
+    padding-top: 5em;
+}
+#index
+{
+    padding-top: 0em !important;
 }
 
 header h6,
@@ -96,9 +101,7 @@ h5 {
 }
 
 /* FOOTER */
-footer {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/concrete.jpg');
-}
+
 
 .nav-item .btn {
     color: rgb(221, 221, 221);
